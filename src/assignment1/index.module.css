@@ -1,0 +1,218 @@
+
+   
+.container{
+    display: flex;
+    position: fixed;
+    
+}
+.left{
+    
+    margin-left: 5%;
+    display: flex;
+   
+}
+#logo{
+    width: 130px;
+    font-size: 32px;
+    color: #0084ff;
+    font-weight: 800;
+  }
+              
+  #logostories{
+    Margin: 0;
+    font-weight: 500;
+    font: Raleway;
+
+  }
+  
+.label{
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.9px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 20%;
+}
+.arr_img{
+    margin-left: 5%;
+    padding-top: 0px;
+    padding-left: 8px;
+}
+#exp{
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.9px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-left: 80px;
+}  
+.right{
+    display: flex;
+    margin-right: 50%;
+    margin-left: 30%
+}
+.right_para{
+
+    min-width: 23em;
+    opacity: 0.6;
+    font-family: Raleway, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 0.5em;
+}
+#btn{
+    font-family: "Open Sans", sans-serif;
+    width: auto;
+    font-size: 0.75em;
+    padding: 0.5em 2em;
+    box-shadow: none;
+    min-width: 136px;
+    height: 42px;
+    border-radius: 25px;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+   cursor: pointer;
+  
+    color: rgb(255, 255, 255);
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.03em;
+    border-width: initial; 
+    border-style: none; 
+     outline: none;
+    background: linear-gradient(269deg, rgb(0, 72, 255), rgb(0, 150, 255));
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+ 
+}
+.container{
+    width: 100%;
+    height: 80px;
+    z-index: 90;
+    padding: 1em 4.875em;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(204, 204, 204) 0px 1px 1px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    box-sizing: border-box;
+}
+#btn_div{
+   
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#exp:hover{
+    color: rgb(255, 255, 255);
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.03em;
+   
+    border-style: none; 
+     outline: none;
+    background: linear-gradient(269deg, rgb(0, 72, 255), rgb(0, 150, 255));
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    /* align-items: flex-start; */
+    border-radius: 25px;
+    padding: 10px;
+}
+.latestposts{
+    margin-top: 10%;
+
+}
+.head{
+    margin-left: 15%;
+}
+#latestpost_head{
+   
+    margin-left:10px; 
+    font-size: 24px;
+    font-weight:lighter;
+    font-style: normal;
+    
+    line-height: 1.25;
+    letter-spacing: -.6px;
+     
+}
+.cat{
+    margin-left: 15%;
+    margin-right: 15%;
+   
+}
+.cat p{
+    font-family: Raleway,sans-serif;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 16px;
+}
+.cat button{
+    width: auto;
+    font-size: .75em;
+    color: #0084ff;
+    padding: 6px 16px;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    margin: 5px;
+    cursor: pointer;
+   
+}
+
+.cardcontainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-right: 13%;
+    margin-bottom: 10%;
+    margin-left: 13%;
+}
+#all{
+    color:white;
+    background-color:#0084ff; 
+}
+button:hover{
+    background-color: #0084ff;
+    color: white;
+}
+span{
+    color: #0084ff;   
+}
+.name{
+    font-size: 1.25em;
+    font-weight: 600;
+    line-height: 1.14;
+    color: #000;
+}
